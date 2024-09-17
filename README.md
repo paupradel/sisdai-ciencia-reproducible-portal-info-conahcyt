@@ -28,7 +28,7 @@ Se recomienda instalar el IDE [Rstudio](https://www.rstudio.com/categories/rstud
 ## Instrucciones de uso
 Para ejecutar el código en este repositorio es necesario tener instalado el lenguaje de programación estadística `R`. El repositorio está ordenado de tal forma que todos los códigos se encuentran en la carpeta `procesamiento` y los datos se almacenan en la carpeta `datos`.
 
-El primer paso es descargar los datos de la cuenta pública, lo cual se hace usando el código `01_descargar_datos.R` en caso de que se pueda realizar por que algún enlace está roto, puedes encontrar la salida de estescript en la descarga de datos de la narrativa de la sección [Presupuesto](https://info.conahcyt.mx/presupuesto/) del portal. Para generar los datos para alimentar la narrativa en el portal se utiliza el código `02_salida_json_sisdai.r` y para generar el archivo separado por comas (`csv`) para compartir datos en formato abierto se usa el código `03_datos_tabulares.R`.   
+El primer paso es descargar los datos de la cuenta pública, lo cual se hace usando el código `01_descargar_datos.R` en caso de que se pueda realizar por que algún enlace está roto, puedes encontrar la salida de este script en la descarga de datos de la narrativa de la sección [Presupuesto](https://info.conahcyt.mx/presupuesto/) del portal. Para generar los datos para alimentar la narrativa en el portal se utiliza el código `02_salida_json_sisdai.r` y para generar el archivo separado por comas (`csv`) para compartir datos en formato abierto se usa el código `03_datos_tabulares.R`.   
 
 Finalmente, el código `ejemplo_narrativa.qmd` permite replicar el procesamiento de los datos y las visualizaciones que se presentan el el portal.
 
