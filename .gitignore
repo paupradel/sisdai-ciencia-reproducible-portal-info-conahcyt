@@ -7,6 +7,6 @@
 # Session Data files
 .RData
 
-#datos/*
+datos/*
 *.html
 *.png
